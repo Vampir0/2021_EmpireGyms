@@ -1,0 +1,119 @@
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/main.css"">
+   <title>Dashboard</title>
+</head>
+
+<body>
+
+   <header>
+      Head
+      <nav>
+         <div class=" cont">Nav</div>
+   </nav>
+   </header>
+   <section id="Home" class="cont flex">
+
+      <menu class="open">
+         <ul>
+            <li><span>Dashboard</span></li> 
+            <li><span>Account</span>
+               <ul>
+                  <li>Member information</li>
+                  <li>Change password</span></li> 
+               </ul>
+            </li>
+            <li class="active"><span>My Workouts</span><!-- Active / L0  -->
+               <ul>
+                  <li>Check-ins</li>
+                  <li class="active">Upcoming Classes</li><!-- Active / L1  -->
+                  <li>past classes</li>
+               </ul>
+            </li>
+            <li><span>Membership & Billing</span>
+               <ul>
+                  <li>membership</li>
+                  <li>Payment Method</li>
+                  <li>Invoice</li>
+                  <li>Freeze membership</li>
+                  <li>Cancel Membership</li>
+               </ul>
+            </li>
+         </ul>
+      </menu>
+
+      <main id="dashboard" class="grid">
+         <div class="alert"><span class="ico alert"></span>
+            <h3>We’re sorry, an error has occurred with your payment method.</h3>
+         </div>
+         <div class="profile">
+            <div class="pic">
+               <div class="profilePic"><img src="img/profile.jpg" alt=""></div>
+            </div>
+            <div class="name">
+               <h3>Arthur Hansen</h3>
+               <h4>Member ID #6913427</h4>
+            </div>
+            <div class="membership">
+               <h3>Membership<span class="status active">ACTIVE<span></h3>
+               <h4>Multi Club Commit - FL</h4>
+            </div>
+            <div class="homeClub">
+               <h4>Home Club</h4>
+               <p>Jupiter</p>
+            </div>
+            <div class="nextBill">
+               <h4>Next Bill</h4>
+               <p>$136.50&nbsp;- Sep.&nbsp;28th</p>
+            </div>
+            <div class="balance">
+               <h3>Balance Due</h3>
+               <h2>$105.30</h2><button>Pay Now</button>
+            </div>
+            <div class="line"></div>
+         </div>
+         <div class="upcoming confirmed">
+            <img src="img/upcoming.jpg" alt="">
+            <div class="info">
+               <h3>Upcoming Class</h3>
+               <p>Step and Sculpt<br>THU 21 9:00 AM - 10:00 AM</p>
+               <button>See more</button>
+            </div>
+         </div>
+         <div class="news tag" data-tag="new">
+            <img src="img/upcoming.jpg" alt="">
+            <div class="info">
+               <h3>News</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis at ut libero iaculis pellentesque nulla ac. Ornare at et, dolor vel, nibh lorem sit sed. Orci urna.</p>
+            </div>
+         </div>
+         <div class="refer">
+            <div class="ico"></div>
+            <div class="info">
+               <p>Refer a friend</p>
+               <small>Enter your friend's email address below and get a discount on his membership and yours</small>
+               <form action="">
+                  <input type="email" name="email" id="email">
+                  <button class="neg">Send</button>
+               </form>
+            </div>
+         </div>
+      </main>
+   </section>
+   </div>
+
+   <footer>
+      <div class="cont">Footer</div>
+   </footer>
+   </body>
+
+</html>
