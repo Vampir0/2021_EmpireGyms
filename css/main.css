@@ -946,7 +946,6 @@ footer {
 		position: absolute;
 		top: 0em;
 		right: -5rem;
-		background-image: url(/img/arrows.svg);
 		width: 1.5rem;
 		height: 1.5rem;
 		content: "";
@@ -985,9 +984,9 @@ footer {
 	}
 	.alert > .ico {
 		position: absolute;
-		top: -1.5rem;
-		width: 3em;
-		height: 3em;
+		top: -1.75rem;
+		width: 2.75em;
+		height: 2.75em;
 		margin-right: 0;
 	}
 
@@ -1007,6 +1006,7 @@ footer {
 			"balance";
 		grid-template-columns: 1fr;
 	}
+
 
 	.profile .pic {
 		align-self: center;
